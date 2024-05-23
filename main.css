@@ -1,0 +1,32 @@
+@font-face {
+    font-family: "Mont-Bold";
+    src: url(data2/Montserrat-Bold.ttf);
+}
+
+@font-face {
+    font-family: "Mont-Regular";
+    src: url(data2/Montserrat-Regular.ttf);
+}
+
+button {
+    color: indianred;
+    background-color: transparent;
+    border-radius: 30px;
+    position: absolute;
+    height: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-family: 'Mont-Regular';
+    outline: none;
+    border: 2px indianred solid;
+    cursor: pointer;
+    font-weight: bold;
+    transition: scale 0.3s ease;
+}
+
+button:hover {
+    scale: 1.05;
+    background-color: indianred;
+    color: white;
+    font-weight: lighter;
+}
